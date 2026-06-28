@@ -9,7 +9,7 @@ const configStreamHandler = require('./api/config-stream');
 const streamHandler = require('./api/stream/[type]/[id]');
 const resolveHandler = require('./api/resolve');
 
-const PORT = parseInt(process.env.PORT, 10) || 3000;
+const PORT = parseInt(process.env.PORT, 10) || 3001;
 const HOST = process.env.HOST || '0.0.0.0';
 const PUBLIC_DIR = path.join(__dirname, 'public');
 const APP_BASE_PATH = normalizeBasePath(process.env.APP_BASE_PATH || '');
